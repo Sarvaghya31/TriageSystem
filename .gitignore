@@ -2,8 +2,8 @@
 .env
 .env.local
 .env.production
-./ai-ticket-assistant/node_modules
-./ai-ticket-frontend/.env
+ai-ticket-assistant/node_modules
+ai-ticket-frontend/.env
 
 # Node dependencies
 node_modules/
