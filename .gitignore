@@ -2,6 +2,8 @@
 .env
 .env.local
 .env.production
+./FullStack-AIAgent/node_modules
+./FullStack-AIAgent/.env
 
 # Node dependencies
 node_modules/
