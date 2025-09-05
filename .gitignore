@@ -2,8 +2,8 @@
 .env
 .env.local
 .env.production
-./FullStack-AIAgent/node_modules
-./FullStack-AIAgent/.env
+./ai-ticket-assistant/node_modules
+./ai-ticket-frontend/.env
 
 # Node dependencies
 node_modules/
