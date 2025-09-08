@@ -28,7 +28,7 @@ app.use(cookieParser())
 const server=createServer(app);
 const io=new Server(server,{
     cors:{
-        origin:"triage-system.vercel.app",
+        origin:"https://triage-system.vercel.app",
         methods:['GET','POST'],
         credentials:true
     }
