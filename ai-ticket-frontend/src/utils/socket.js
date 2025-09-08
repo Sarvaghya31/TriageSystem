@@ -6,7 +6,7 @@ let socket = null;
 
 export const connectSocket = () => {
   if (!socket) {
-    socket = io("http://localhost:3000", {
+    socket = io("https://triagesystem.onrender.com", {
       withCredentials: true
     });
 
