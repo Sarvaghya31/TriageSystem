@@ -19,7 +19,7 @@ dotenv.config();
 const app = express()
 const PORT = process.env.PORT || 3000;
 app.use(cors({
-  origin: "triage-system.vercel.app",
+  origin: "https://triage-system.vercel.app",
   credentials: true                
 }));
 app.use(express.json())
