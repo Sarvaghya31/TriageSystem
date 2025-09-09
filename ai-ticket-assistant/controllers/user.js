@@ -89,8 +89,8 @@ export const login=async(req,res)=>{
         const accessToken=secureuser.generateAccessToken();
              const options = {
             httpOnly: true,
-            secure: false,
-            sameSite: "Lax"
+            secure: true,
+            sameSite: "None"
         }
 
         res.status(200)
@@ -116,7 +116,7 @@ export const loginModeratorAndEndUser=async(req,res)=>{
              const options = {
             httpOnly: true,
             secure: true,
-            sameSite: "Lax"
+            sameSite: "None"
         }
 
         res.status(200)
